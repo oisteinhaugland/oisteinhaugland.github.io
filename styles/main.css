@@ -1,0 +1,28 @@
+
+body {
+    background-color: #fff;
+    padding:50px;
+    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#3f3f3f;
+    font-weight:400;
+  }
+
+  h1{
+      font-weight:800;
+      color:#333;
+  }
+
+a {
+    color:#39c;
+    text-decoration:none;
+  }
+  
+  a:hover {
+    color:#069;
+  }
+
+  .container {
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    padding-left:2em;
+  }
